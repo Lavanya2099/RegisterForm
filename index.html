@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+</head>
+
+<body>
+    <div class="title">
+    <h1>Registration Form:Dance Club</h1>
+    <hr> <!--Horizontal Rule-->
+    </div>
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td><input type="text" id="name" name="name" size="35"></td>
+        </tr>
+        <tr>
+            <th>IC No:</th>
+            <td>
+                <input type="text" size="7">-
+                <input type="text" size="4">-
+                <input type="text" size="5">
+            </td>
+
+        </tr>
+        <tr>
+            <th>Address:</th>
+            <td><textarea cols="60" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <th>Gender:</th>
+            <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <th>Dance Type:</th>
+            <td><input type="checkbox">Zapin
+                <input type="checkbox">Joget
+                <input type="checkbox">Inang
+                <input type="checkbox">Lion Dance
+            </td>
+        </tr>
+        <tr>
+            <th>Competition:</th>
+            <td><select name="State" size="3">
+                <option value="State level">State level</option>
+                <option value="National level">National level</option>
+                <option value="StateInterNational level">StateInternational level</option>
+                </select></td>
+        </tr>
+        <tr>
+            <th>Nationality:</th>
+            
+               <td>
+                <select name="select" id="select">
+                    <option>-please select</option>
+                    <option>India</option>
+                    <option>others</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Password:</th>
+            <td><input type="password" id="pass" name="name"></td>
+        </tr>
+        </table>
+    
+    <tr>
+        <th>
+            <input type="button" value="Register Me">
+            <input type="button" value="cancel">
+            
+        </th>
+        
+    </tr>
+    
+
+
+
+
+
+</body>
+
+</html>
